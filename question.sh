@@ -52,4 +52,4 @@ y/abcn/ABCN/;
 s/,N/,\\N/g;
 5 s/,,/,\\N,\\N/g;
 7 s/N,/N,\\N/g;
-6 s/,,N/,\\N,\\N/g' data.csv  > output.csv
+s/,,/\\N,/g' data.csv  > output.csv
